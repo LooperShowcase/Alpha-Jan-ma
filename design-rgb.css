@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(236, 218, 225);
+}
+
+a {
+  color: rgb(255, 0, 0);
+  font-size: 40px;
+}
+
+table,
+tr,
+td,
+th {
+  border: 5px solid black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: black;
+}
+
+.w3-btn {
+  margin-bottom: 50px;
+}
+
+.button {
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button {
+  border-radius: 150px;
+  height: 55px;
+  width: 250px;
+}
